@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Adamitskiy_Anatoliy_Project1/Resources/Adamitskiy_Anatoliy_Lab1App.js&apos; to &apos;Adamitskiy_Anatoliy_Demo.js&apos;" description="Rename resource &apos;Adamitskiy_Anatoliy_Lab1App.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/Adamitskiy_Anatoliy_Lab1App.js" name="Adamitskiy_Anatoliy_Demo.js" stamp="1396311754155" updateReferences="true"/>
+</session>

@@ -1,0 +1,16 @@
+=run
+Adamitskiy_Anatoliy_Demo\:launchMode=run
+Adamitskiy_Anatoliy_Demo\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.device.launchShortcut
+Adamitskiy_Anatoliy_Project1\:launchMode=run
+Adamitskiy_Anatoliy_Project1\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.iPhone Retina (4 inch)
+Android\ Emulator\ Process\:ConsoleLogLevel=Info
+Apollo\:launchMode=run
+Apollo\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.iPhone Retina (4 inch 64-bit)
+LAST_LAUNCH_TIMESTAMP=1396305861536
+Rhett\ and\ Link\:launchMode=run
+Rhett\ and\ Link\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.iPad
+eclipse.preferences.version=1
+preference.show.console.onError=true
+preference.studio.perspective.version=103
+test\:launchMode=run
+test\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.iPhone Retina (4 inch 64-bit)
