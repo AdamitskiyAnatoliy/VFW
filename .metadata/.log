@@ -5590,3 +5590,124 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
 !SUBENTRY 1 org.eclipse.core.expressions 4 201 2014-03-31 20:23:13.084
 !MESSAGE No property tester contributes a property com.appcelerator.titanium.core.project.matchMinimumSDKVersion to type class org.eclipse.ui.part.FileEditorInput
+!SESSION 2014-04-01 01:49:32.257 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Anatoliy/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Anatoliy/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-04-01 01:49:33.935
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-04-01 01:49:34.034
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-04-01 01:49:34.034
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-04-01 01:49:34.034
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2014-04-01 02:03:13.147
+!MESSAGE An error occurred while installing the items
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2014-04-01 02:03:13.147
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Install, operand=null --> [R]bbndk.macosx.bbmServerSimulator.10.2.0.1521 1.0.0, action=com.appcelerator.titanium.blackberry.core.touchpoint.actions.BlackBerryNDKInstallAction).
+!SUBENTRY 1 com.appcelerator.titanium.blackberry.core 4 0 2014-04-01 02:03:13.147
+!MESSAGE /Applications/Momentics.app/ide/macosx/x86/eclipse/p2/org.eclipse.equinox.p2.core/cache/.blobstore/64/7156ef8d3fa600131057bbc9ce0ade1a.tar.gz (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Applications/Momentics.app/ide/macosx/x86/eclipse/p2/org.eclipse.equinox.p2.core/cache/.blobstore/64/7156ef8d3fa600131057bbc9ce0ade1a.tar.gz (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.equinox.internal.p2.core.helpers.TarFile.<init>(TarFile.java:38)
+	at org.eclipse.equinox.internal.p2.core.helpers.FileUtils.untarFile(FileUtils.java:23)
+	at org.eclipse.equinox.internal.p2.core.helpers.FileUtils.unzipFile(FileUtils.java:65)
+	at com.appcelerator.titanium.blackberry.core.touchpoint.actions.BlackBerryNDKInstallAction.install(BlackBerryNDKInstallAction.java:141)
+	at com.appcelerator.titanium.blackberry.core.touchpoint.actions.BlackBerryNDKInstallAction.execute(BlackBerryNDKInstallAction.java:45)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:38)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:183)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:95)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:174)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at com.appcelerator.titanium.blackberry.ui.configuration.BlackBerrySDKConfigurer.installSDK(BlackBerrySDKConfigurer.java:259)
+	at com.appcelerator.titanium.blackberry.ui.configuration.BlackBerrySDKConfigurer.doConfigure(BlackBerrySDKConfigurer.java:175)
+	at com.appcelerator.titanium.ui.mobile.BaseMobilePlatformConfigurer.configure(BaseMobilePlatformConfigurer.java:44)
+	at com.appcelerator.titanium.ui.mobile.PlatformsInstallManager$3.run(PlatformsInstallManager.java:171)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2014-04-01 02:03:51.350
+!MESSAGE An error occurred while installing the items
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2014-04-01 02:03:51.350
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Install, operand=null --> [R]bbndk.macosx.bbmServerSimulator.10.2.0.1521 1.0.0, action=com.appcelerator.titanium.blackberry.core.touchpoint.actions.BlackBerryNDKInstallAction).
+!SUBENTRY 1 com.appcelerator.titanium.blackberry.core 4 0 2014-04-01 02:03:51.350
+!MESSAGE /Applications/Momentics.app/ide/macosx/x86/eclipse/p2/org.eclipse.equinox.p2.core/cache/.blobstore/64/7156ef8d3fa600131057bbc9ce0ade1a.tar.gz (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Applications/Momentics.app/ide/macosx/x86/eclipse/p2/org.eclipse.equinox.p2.core/cache/.blobstore/64/7156ef8d3fa600131057bbc9ce0ade1a.tar.gz (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at org.eclipse.equinox.internal.p2.core.helpers.TarFile.<init>(TarFile.java:38)
+	at org.eclipse.equinox.internal.p2.core.helpers.FileUtils.untarFile(FileUtils.java:23)
+	at org.eclipse.equinox.internal.p2.core.helpers.FileUtils.unzipFile(FileUtils.java:65)
+	at com.appcelerator.titanium.blackberry.core.touchpoint.actions.BlackBerryNDKInstallAction.install(BlackBerryNDKInstallAction.java:141)
+	at com.appcelerator.titanium.blackberry.core.touchpoint.actions.BlackBerryNDKInstallAction.execute(BlackBerryNDKInstallAction.java:45)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:38)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:183)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:95)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:174)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at com.appcelerator.titanium.blackberry.ui.configuration.BlackBerrySDKConfigurer.installSDK(BlackBerrySDKConfigurer.java:259)
+	at com.appcelerator.titanium.blackberry.ui.configuration.BlackBerrySDKConfigurer.doConfigure(BlackBerrySDKConfigurer.java:175)
+	at com.appcelerator.titanium.ui.mobile.BaseMobilePlatformConfigurer.configure(BaseMobilePlatformConfigurer.java:44)
+	at com.appcelerator.titanium.ui.mobile.PlatformsInstallManager$3.run(PlatformsInstallManager.java:171)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.core 4 128 2014-04-01 02:18:30.512
+!MESSAGE Cloning into '/Users/Anatoliy/Documents/Titanium_Studio_Workspace/Kitchen Sink'...
+fatal: unable to connect to github.com:
+github.com[0: 192.30.252.129]: errno=Connection refused
+
+
+!ENTRY com.aptana.core 4 128 2014-04-01 02:21:19.416
+!MESSAGE Cloning into '/Users/Anatoliy/Desktop'...
+fatal: unable to connect to github.com:
+github.com[0: 192.30.252.129]: errno=Connection refused
+
+
+!ENTRY com.aptana.core 4 128 2014-04-01 02:22:20.928
+!MESSAGE Cloning into '/Users/Anatoliy/Documents/Titanium_Studio_Workspace/Kitchen Sink'...
+fatal: unable to connect to github.com:
+github.com[0: 192.30.252.129]: errno=Connection refused
+
+
+!ENTRY com.appcelerator.titanium.blackberry.core 4 0 2014-04-01 02:22:37.523
+!MESSAGE No Blackberry SDK found in the path specified in preferences.
+!SESSION 2014-04-02 17:21:28.327 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Anatoliy/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Anatoliy/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-04-02 17:21:30.559
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-04-02 17:21:30.704
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-04-02 17:21:30.705
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-04-02 17:21:30.705
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY com.appcelerator.titanium.android.core 4 0 2014-04-02 18:14:05.052
+!MESSAGE There are no Android devices connected
+
+!ENTRY com.appcelerator.titanium.tizen.core 4 0 2014-04-02 18:14:23.061
+!MESSAGE No Tizen emulator/device instances are running
