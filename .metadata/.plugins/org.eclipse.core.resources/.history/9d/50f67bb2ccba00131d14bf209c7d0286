@@ -1,0 +1,8 @@
+var mainWindow = Ti.UI.createWindow({
+	
+	name: "Main Window",
+	id: 1,
+	backgroundColor: "#94ffd4", 
+});
+
+mainWindow.open();
