@@ -1,0 +1,2 @@
+var mainWindow = Ti.UI.createWindow();
+

@@ -1,0 +1,23 @@
+var mainWindow = Ti.UI.createWindow({
+	
+	name: "Main Window",
+	id: 1,
+	backgroundColor: "#fff", 
+});
+
+var header = Ti.UI.createView({
+	
+	backgroundColor: "#333",
+	borderRadius: 5,
+	borderWidth: 1,
+	width: 200,
+	height: 50,
+	top: 20,
+	right: 50,
+	left: 10,
+	bottom:10
+});
+
+mainWindow.add(header);
+//opens window
+mainWindow.open();

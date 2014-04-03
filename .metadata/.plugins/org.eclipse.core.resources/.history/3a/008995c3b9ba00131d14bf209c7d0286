@@ -1,0 +1,10 @@
+var mainWindow = Ti.UI.createWindow({
+	
+	name: "Main Window",
+	id: 1,
+	backgroundColor: "#fff", 
+	backgroundImage: "http://upload.wikimedia.org/wikipedia/commons/5/5b/Ultraviolet_image_of_the_Cygnus_Loop_Nebula_crop.jpg"
+});
+
+//opens window
+mainWindow.open();
