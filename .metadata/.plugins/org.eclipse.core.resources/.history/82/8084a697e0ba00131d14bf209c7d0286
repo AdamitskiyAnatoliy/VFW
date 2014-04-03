@@ -1,6 +1,3 @@
-//	Anatoliy Adamitskiy
-
-
 var flavors = ["Vanilla", "Chocoolate", "Mint Chocolate Chip", "Strawberry", "Cookies and Cream", "Rocky Road"];
 
 var mainWindow = Ti.UI.createWindow({
@@ -19,7 +16,6 @@ var header = Ti.UI.createView({
 	top: 20,
 	right: 10,
 	left: 10,
-
 });
 
 var title = Ti.UI.createLabel({
