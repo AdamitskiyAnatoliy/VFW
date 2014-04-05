@@ -14,6 +14,7 @@ nextButton.addEventListener("click", nextBut = function() {
 	} else {
 		
 		i = 0;
+		mainText.text = flavors[i++];
 		
 	}
 		
@@ -32,6 +33,7 @@ previousButton.addEventListener("click", prevBut = function() {
 	} else {
 		
 		i = 5;
+		mainText.text = flavors[i--];
 		
 	}
 	
