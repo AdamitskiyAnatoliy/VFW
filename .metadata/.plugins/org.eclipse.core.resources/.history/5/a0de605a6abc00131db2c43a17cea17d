@@ -1,0 +1,19 @@
+//	Anatoliy Adamitskiy
+//	Visual Frameworks
+
+
+
+nextButton.addEventListener("click", nextBut = function() {
+	
+	mainText.text = flavors[1];
+	mainText.text = flavors[2];
+		
+});
+
+
+
+previousButton.addEventListener("click", prevBut = function() {
+	
+	
+	
+});

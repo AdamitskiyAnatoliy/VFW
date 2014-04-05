@@ -1,0 +1,16 @@
+var openWindow = function() {
+	
+	var newWindow = Ti.UI.createWindow({
+		
+		backgroundColor : "blue"
+		
+	});
+	newWindow.open();
+};
+
+clickView.addEventListener("click", openWindow);
+
+var message = "Can you see this?";
+
+exports.msg = message;
+

@@ -1,0 +1,16 @@
+//	Anatoliy Adamitskiy
+//	Visual Frameworks
+
+var nextBut = function() {
+	
+	var mainText = Ti.UI.createLabel({
+	
+	text: flavors[0],
+	color: "#000",
+	font: {fontSize: "22dp", fontFamily: "Chalkduster"}
+	
+});
+	
+};
+
+nextButton.addEventListener("click", nextBut);

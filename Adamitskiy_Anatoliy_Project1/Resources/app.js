@@ -1,7 +1,7 @@
 //	Anatoliy Adamitskiy
+//	Visual Frameworks
 
-
-var flavors = ["Vanilla", "Chocoolate", "Mint Chocolate Chip", "Strawberry", "Cookies and Cream", "Rocky Road"];
+var flavors = ["Vanilla", "Chocolate", "Mint Chocolate Chip", "Strawberry", "Cookies and Cream", "Rocky Road"];
 
 var mainWindow = Ti.UI.createWindow({
 	
@@ -24,7 +24,7 @@ var header = Ti.UI.createView({
 
 var title = Ti.UI.createLabel({
 	
-	text: "Flavors of Ice Cream",
+	text: "Ice Cream Flavors",
 	color: "#000",
 	font: {fontSize : "22dp", fontFamily: "Chalkduster"}
 	
@@ -32,7 +32,7 @@ var title = Ti.UI.createLabel({
 
 var mainView = Ti.UI.createView({
 	
-	backgroundColor: "#fff",
+	backgroundColor: "#94ffd4",
 	borderRadius: 5,
 	borderWidth: 1,
 	height: 415,
@@ -40,6 +40,16 @@ var mainView = Ti.UI.createView({
 	right: 10,
 	left: 10,
 });
+
+var mainText = Ti.UI.createLabel({
+	
+	text: flavors[0],
+	color: "#000",
+	font: {fontSize: "22dp", fontFamily: "Chalkduster"}
+	
+});
+	
+
 
 var previousButton = Ti.UI.createView({
 	
@@ -82,8 +92,10 @@ var previousLabel = Ti.UI.createLabel({
 	
 });
 
+var loadWindow = require("iceCream");
 
 
+mainView.add(mainText);
 previousButton.add(previousLabel);
 nextButton.add(nextLabel);
 header.add(title);

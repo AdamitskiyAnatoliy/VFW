@@ -1,0 +1,4 @@
+//	Anatoliy Adamitskiy
+//	Visual Frameworks
+
+var flavors = ["Vanilla", "Chocoolate", "Mint Chocolate Chip", "Strawberry", "Cookies and Cream", "Rocky Road"];

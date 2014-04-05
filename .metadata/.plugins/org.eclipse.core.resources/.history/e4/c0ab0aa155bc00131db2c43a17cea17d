@@ -1,0 +1,55 @@
+var win = Ti.UI.createWindow({
+	
+	backgroundColor: "#fff"
+	
+});
+
+//1.UI components, 2. Progress Timer 3. Decrement Timer, 4. listeners
+
+var progress = Ti.UI.createProgressBar({
+	
+	min: 0,
+	max: 100,
+	value:30,
+	message: "Can you stop the progress?",
+	width: "70%"
+	
+});
+
+var randomView = Ti.UI.createView({
+	
+	width: "10%",
+	height: "10%",
+	background: "blue",
+	borderColor: "black"
+	
+});
+
+var increment = function() {
+	
+	if(progress.value < 100){
+		
+		//increase timer
+		//move box
+		
+	} else {
+		
+		//game over message
+		alert("YOU FAIL!!!!!");
+	
+	}
+	
+};
+
+var progTimer = setInterval(increment, 1000); 
+
+progress.addEventListener("update", function() {
+	
+	progress.value = progress + 1;
+	
+});
+
+win.add(randomView);
+win.add(progress);
+progress.show();
+win.open();

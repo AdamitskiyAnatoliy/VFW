@@ -1,0 +1,21 @@
+var win = Ti.UI.createWindow({
+	
+	backgroundColor: "#fff"
+	
+});
+
+//1.UI components, 2. Progress Timer 3. Decrement Timer, 4. listeners
+
+var progress = Ti.UI.createProgressBar({
+	
+	min: 0,
+	max: 100,
+	value:30,
+	message: "Can you stop the progress?",
+	width: "70%"
+	
+});
+
+win.add(progress);
+progress.show();
+win.open();

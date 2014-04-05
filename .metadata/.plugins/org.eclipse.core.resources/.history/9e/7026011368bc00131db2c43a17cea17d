@@ -1,0 +1,28 @@
+//	Anatoliy Adamitskiy
+//	Visual Frameworks
+
+
+
+nextButton.addEventListener("click", nextBut = function() {
+	
+	var newWindow = Ti.UI.createWindow({
+		
+		backgroundColor : "blue"
+		
+	});
+	newWindow.open();
+	
+});
+
+
+
+previousButton.addEventListener("click", prevBut = function() {
+	
+	var newWindow = Ti.UI.createWindow({
+		
+		backgroundColor : "red"
+		
+	});
+	newWindow.open();
+	
+});

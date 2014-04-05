@@ -1,0 +1,10 @@
+//	Anatoliy Adamitskiy
+//	Visual Frameworks
+
+var nextButton = function() {
+	
+	
+	
+};
+
+alert("Hello");
